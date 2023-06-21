@@ -389,10 +389,7 @@ svg{
     }
 
     .contenedor-piepagina_div h2{
-        text-align: center;
-        justify-content: center;
-        font-size: .5rem;
-        color: var(--marron-oscuro);
+        display: none;
     }
     .contenedor-piepagina_div p{
         font-size: 1.3rem;

@@ -54,6 +54,12 @@ En algunos casos el REM puede medir 16px:
     height: 9rem;
 }
 
+@media (max-width:500px) {
+    .logo-imagen img{
+        display: none;
+    }
+}
+
 .contenido-navegacion__div{
     max-width: 120rem;
     margin: 0 auto;

@@ -439,7 +439,7 @@ svg{
     }
 
     .contenedor-piepagina_div h2{
-        display: none;
+        font-size: .7rem;
     }
 }
     

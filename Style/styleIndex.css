@@ -391,7 +391,7 @@ svg{
     .contenedor-piepagina_div h2{
         text-align: center;
         justify-content: center;
-        font-size: 1.2rem;
+        font-size: .5rem;
         color: var(--marron-oscuro);
     }
     .contenedor-piepagina_div p{
@@ -436,10 +436,6 @@ svg{
     }
     #mensajes{
         top: 0;
-    }
-
-    .contenedor-piepagina_div h2{
-        font-size: .7rem;
     }
 }
     

@@ -377,6 +377,17 @@ svg{
 /*responsive footer*/
 
 @media (max-width:450px) {
+
+    .footer{
+        text-align: center;
+        color: var(--marron-oscuro);
+        background-color: rgb(143, 116, 100);
+        padding: 8rem;
+        font-weight: bold;
+        flex-shrink: 0
+    }
+
+
     .contenedor-piepagina{  
         display: flex;
         justify-content: space-between;
@@ -389,7 +400,7 @@ svg{
     }
 
     .contenedor-piepagina_div h2{
-        display: none;
+        font-size: 1rem;
     }
     .contenedor-piepagina_div p{
         font-size: 1.3rem;
@@ -401,7 +412,7 @@ svg{
     }
 
     svg{
-        font-size: 4rem;
+        font-size: 2.5rem;
         color: var(--blanco);
     }
     
@@ -427,7 +438,11 @@ svg{
 @media (max-width:500px) {
     #mensajes p{
         color: var(--blanco);
-        font-size: 2rem;
+        font-size: 1.5rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        padding-top: 0;
+        padding-bottom: 0;
         text-align: center;
         justify-content: center;
     }

@@ -437,6 +437,10 @@ svg{
     #mensajes{
         top: 0;
     }
+
+    .contenedor-piepagina_div h2{
+        display: none;
+    }
 }
     
 

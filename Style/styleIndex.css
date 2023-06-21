@@ -25,12 +25,16 @@
 
 
 html{
+    width: 100%!important;
+    overflow-x: hidden!important;
     box-sizing: border-box;
     /*1 rem=10px*/
     font-size: 62.5%;
 }
 
 body{
+    width: 100%!important;
+    overflow-x: hidden!important;
     font-size: 1.6rem;
     overflow-x: hidden;
     background-color: rgb(241, 238, 234);

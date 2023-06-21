@@ -315,7 +315,7 @@ svg{
 .contenedor-piepagina{  
     display: flex;
     justify-content: space-between;
-    padding: 5rem;
+    padding: 3rem;
     margin-bottom: 0;
 }
 

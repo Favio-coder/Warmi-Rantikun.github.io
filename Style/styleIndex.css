@@ -33,10 +33,10 @@ html{
 }
 
 body{
+    overflow-y: hidden!important;
     width: 100%!important;
     overflow-x: hidden!important;
     font-size: 1.6rem;
-    overflow-x: hidden;
     background-color: rgb(241, 238, 234);
 }
 
@@ -177,6 +177,7 @@ h3,p,a{
     display: flex;
     align-items:center;
     justify-content: space-around;
+    
 }
 
 .logo h2{
@@ -195,6 +196,19 @@ h3,p,a{
     transition: color .3s ease-in-out;
     text-align: center;
 }
+
+.navegacion{
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: var(--mostaza);
+    bottom: 0;
+    height: 100vh;
+    width: 30rem;
+    padding: 3rem 4rem;
+    animation: desplazamiento .5s ease-in-out;
+}
+
 
 @media(min-width:768px) {
     .navegacion a{
@@ -217,6 +231,7 @@ h3,p,a{
     padding: 3rem 4rem;
     animation: desplazamiento .5s ease-in-out;
     overflow: hidden;
+    overflow-y: hidden!important;
 }
 
 @media (max-width:500px) {
@@ -456,22 +471,3 @@ svg{
 }
     
 
-/*responsive samsumg s8+*/
-
-
-/*cuerpo y más*/
-
-.mas-informacion{
-    display: inline-flex;
-    background-color: #c4b79d;
-}
-
-.mas-informacion  img{
-    border-radius: 100%;
-    height: 30rem;
-    padding: 4rem;
-}
-
-.informacion_2{
-    padding: 5rem 5rem;
-}

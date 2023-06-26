@@ -1,0 +1,116 @@
+:root{
+    --rojo: rgb(218, 153, 153);
+    --blanco: white;
+    --titulos:'Arima Madurai',cursive;
+    --parrafos:'Mulish', sans-serif;
+    --rojo-oscuro: rgb(185, 34, 34);
+    --mostaza: rgb(168, 140, 124);
+    --marron-oscuro: rgb(112, 66, 20);
+}   
+
+.historia{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom:dashed 4px var(--marron-oscuro);
+    padding-bottom: 8rem;
+}
+
+.titulo-historia{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    color: var(--marron-oscuro);
+}
+
+.titulo-historia h1{
+    font-size: 5rem;
+}
+
+
+.somos{
+    display: flex;
+    align-items: center;
+    padding: 3rem 3rem;
+    background-color: #C2A68C;
+    margin: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+}
+
+.somos h1{
+    margin-right: 5px;
+}
+
+.vision{
+    display: flex;
+    align-items: center;
+    padding: 3rem 3rem;
+    flex-direction: row-reverse;
+    background-color: #C2A68C;
+    margin: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+}
+
+.vision h1{
+    margin-left: 5px;
+}
+
+.mision{
+    display: flex;
+    align-items: center;
+    padding: 3rem 3rem;
+    background-color: #C2A68C;
+    margin: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+}
+
+.mision h1{
+    margin-right: 5px;
+}
+
+.titulo-card{
+    margin-top: 4rem;
+    color: var(--marron-oscuro);
+    font-weight: bold;
+}
+
+.representantes{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.representantes img{
+    height: 25rem;
+    border-radius: 50%;
+    border: 5px solid var(--marron-oscuro);
+}
+
+
+@media (max-width= 500px) {
+    .titulo-historia h1{
+        font-size: 5rem;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .representantes{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+    
+    .representantes img{
+        height: 25rem;
+        border-radius: 50%;
+        border: 5px solid var(--marron-oscuro);
+    }
+}
+
+
+

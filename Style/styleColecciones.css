@@ -366,6 +366,8 @@ body {
   position: relative;
 }
 
+
+
 @media (max-width:500px) {
   #tranding .tranding-slider {
     height: 45rem;
@@ -654,3 +656,5 @@ svg{
       top: 0;
   }
 }
+
+/*Section menu*/
